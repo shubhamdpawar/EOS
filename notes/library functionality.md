@@ -1,12 +1,10 @@
 # library functionality
 
-
-
 what is library?
 
 library is combination of binary files which contains various  functions like add subutract dft fft
 
-when we have to transfer our functions to our couligu then we make a library wich contains that functions which ccolege wants to add in ther project.
+#### when we have to transfer our functions to our colegue then we make a library wich contains that functions which colege wants to add in ther project.
 
 in below diagram we type  in red colour library  which are functions wich we going to send our feind by making library.
 
@@ -32,7 +30,7 @@ what we did here just adding a command ar -cr libraryname.a add.o sub.o (which f
 
 ![image-20211201103833389](/home/shubham/.config/Typora/typora-user-images/image-20211201103833389.png)
 
-when get library created we have to add the header file which contain the prototype of the funtion that way reciver can understand what kinda argument have to pass and how many.withought header file reciver cannot identifi what kind of aurgument he has to pass.alwas add header file with library.
+when get library created we have to add the header file which contain the prototype of the funtion that way reciver can understand what kind argument have to pass and how many. withought header file reciver cannot identifi what kind of aurgument he has to pass.always add header file with library.
 
 below picture is our header file
 
@@ -46,7 +44,7 @@ now he wants to write a program which shows in below picture.
 
 ![image-20211201112528442](/home/shubham/.config/Typora/typora-user-images/image-20211201112528442.png)
 
-we can see in above picture reciver created his own main fiction in which he used a add function in that add function he give aurgument is 3 diffenant number ,how he get know?he see our heder file from that file he get know what kind of aurgument he has to pass.also he added arith.h header file 
+### we can see in above picture reciver created his own main fiction in which he used a add function in that add function he give aurgument is 3 diffenant number ,how he get know?he see our heder file from that file he get know what kind of aurgument he has to pass.also he added arith.h header file 
 
 so now we have header file proj.c main and in library function defination so now we are going to compile the program by 
 
@@ -140,3 +138,4 @@ for looking entire process of systeam use comand
 
 ![image-20211201151146951](/home/shubham/.config/Typora/typora-user-images/image-20211201151146951.png)
 
+### 
