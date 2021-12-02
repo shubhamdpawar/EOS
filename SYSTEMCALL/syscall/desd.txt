@@ -1,0 +1,5 @@
+DESDystem call
+# ./desdcp src.txt dest.txt
+
+open("src.txt", O_RDONLY);
+open("dest.txt", O_WRONLY);
