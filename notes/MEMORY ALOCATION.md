@@ -115,3 +115,10 @@ lets write program to print file disripter. line number 20.
 in below image we can se a library function printf which stored in libc.c in userspace.now printf function have to print the hello world in display and display is hardware high privilage so printf function have to give permission from kernal space  and exicute opration ,,print f library trying to perform output functionality,so now print f fuction iternaly perform system call which is write call **fd=write(1,hello world ,11)**  and why fd is 1? stinput = 0 ,stout = 1 , error= 2 thats why fd is 1.
 
 ![image-20211202131701145](/home/shubham/.config/Typora/typora-user-images/image-20211202131701145.png)
+
+read this COW copy on write
+
+blocking api 
+
+non_blocking api's
+
