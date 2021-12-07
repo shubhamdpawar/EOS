@@ -138,4 +138,3 @@ for looking entire process of systeam use comand
 
 ![image-20211201151146951](/home/shubham/.config/Typora/typora-user-images/image-20211201151146951.png)
 
-### 
